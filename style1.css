@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/*theme css*/
+a{
+     color: #001eb6;
+     transition: .5s;
+}
+ a:hover {
+     text-decoration: none;
+     color:#001eb6;
+}
+ body {
+	font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.6;
+	color:#212529;
+}
+ p {
+     font-style: normal;
+}
+ h1, h2, h3, h4, h5, h6, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    line-height: 1.2;
+    font-weight: 700;
+    transition: .5s;
+    font-size: 19px;
+    margin-bottom: 0;
+	color:#111;
+}
+ .btn-primary:focus, select:focus, textarea:focus, input:focus{
+     box-shadow: none !important;
+}
+ textarea, input{
+     outline:none;
+}
+ a:focus, .btn:focus {
+     text-decoration: none;
+     outline: none;
+}
+ .uppercase {
+     text-transform: uppercase;
+}
+ .capitalize {
+     text-transform: capitalize;
+}
+/* title css */
+.witr_section_title_inner h1, .witr_section_title_inner h2, .witr_section_title_inner h3 {
+    font-size: 40px;
+    margin: auto;
+    font-weight: 700;
+}
+ .all_counter_color h4, .all_counter_color h1 {
+    color: #FFFFFF;
+}
+.all_counter_color h3, .all_counter_color span {
+    color: #FFFFFF;
+    margin: -5px 0px 0px 0px;
+}
+.witr_section_title_inner.text-center p {
+    width: 71%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.witr_section_title {
+    padding-bottom: 0px;
+}
+.witr_section_title {
+    position: relative;
+    padding-bottom: 30px;
+}
+ .witr_section_title_inner{
+     position:relative;
+     z-index:1;
+}
+ .witr_back_title{
+     position:absolute;
+     top:0;
+     bottom:0;
+     right:0;
+     left:0;
+}
+ .title_in .witr_back_title {
+     z-index: -1;
+}
+ .witr_back_title h4{
+     font-size:80px;
+     -webkit-text-stroke: 1px #888888;
+     -webkit-text-fill-color: transparent;
+     line-height:1;
+}
+.witr_section_title_inner h1, .witr_section_title_inner h2, .witr_section_title_inner h3 {
+    font-size: 36px;
+    margin: auto;
+    font-weight: 700;
+}
+ .witr_section_title_inner h1 {
+    color: #FFFFFF;
+}
+ .text-right.witr_section_title_inner h1,
+ .text-right.witr_section_title_inner h2, .
+ text-right.witr_section_title_inner h3{
+     margin-right: 0px;
+}
+ .text-left.witr_section_title_inner h1,
+ .text-left.witr_section_title_inner h2, 
+ .text-left.witr_section_title_inner h3{
+     margin-left: 0px;
+}
+ .witr_section_title_inner h1{
+}
+.witr_section_title_inner h2 {
+    font-size: 17px;
+    display: inline-block;
+	color:#fff;
+}
+ .all_counter_color i, .witr_counter_img {
+    margin: 0px 20px 0px 0px;
+    padding: 10px 0px 0px 0px;
+}
+ .witr_section_title_inner h3 {
+    color: #FFFFFF;
+    padding: 10px 0px 0px 0px;
+}
+ .witr_section_title_inner p span a,
+ .witr_section_title_inner p span, 
+ .witr_section_title_inner h1 span,
+ .witr_section_title_inner h2 span,
+ .witr_section_title_inner h3 span{
+     color:#001eb6;
+}
+ .witr_section_title_inner p {
+     margin-top: 10px;
+}
+ .witr_section_title_inner.text-center p{
+     margin-right:auto;
+     margin-left:auto;
+}
+ .witr_section_title_inner p {
+    color: #FFFFFF;
+    font-size: 16px;
+    width: 100%;
+    padding: 17px 0px 10px 0px;
+}
+ .witr_image_title {
+     margin-top: 0px;
+     margin-bottom: 10px;
+}
+.white .witr_section_title_inner h1,
+.white .witr_section_title_inner h2,
+.white .witr_section_title_inner h3,
+.white .witr_section_title_inner p{
+    color:#fff;
+}
+.title_btn a {
+    background: #e0a067;
+    padding: 15px 30px;
+    color: #fff;
+    display: inline-block;
+}
+/* button hover style */
+.pricing-part a.btn, .feature_btn a, .witr_ser_btnb a, .service-btn > a, a.dtbtn, .witr_btn, .witr_bbtn, .witr_gbtn, .witr_gbbtn, .lowgo_button a, .witr_sbtn_s8 a {
+    border-radius: 5px;
+    font-size: 16px;
+}
+.witr_btn, .witr_bbtn, .witr_gbtn::before, .witr_vbtn, .witr_vhgbtn::before, .witr_vbbgbtn_inner:after, .witr_vbbgbtn::after, .witr_vdbbgbtn_inner:before, .witr_vdbbgbtn::before {
+    background-color: transparent;
+    background-image: linear-gradient(90deg, #3757F7 0%, #001EB6 100%);
+	color:#fff;
+}
+ .witr_btn:hover, .witr_bbtn:hover, .witr_gbtn:hover::before, .witr_vbtn:hover, .witr_vhgbtn:hover::before, .witr_vbbgbtn_inner:hover:after, .witr_vbbgbtn:hover::after, .witr_vdbbgbtn_inner:hover:before, .witr_vdbbgbtn:hover::before {
+    background-color: transparent;
+    background-image: linear-gradient(90deg, #3757F7 0%, #001EB6 100%);
+	color:#fff;
+}
+
+ .witr_gbtn::before {
+     border-radius: 30px;
+}
+ .tx_golobal_color{
+     background: #e0a067;
+}
+ .tx_btn_global_color:hover{
+     background:#140909;
+}
+.logo-right,
+.logo-left {
+    align-items: center;
+}
+ .witr_h_h2 .lowgo_menu, .witr_h_h3 .lowgo_menu, .witr_h_h4 .lowgo_menu, .witr_h_h5 .lowgo_menu, .witr_h_h6 .lowgo_menu, .witr_h_h7 .lowgo_menu, .witr_h_h8 .lowgo_menu, .witr_h_h9 .lowgo_menu, .witr_h_h10 .lowgo_menu, .witr_h_h11 .lowgo_menu, .witr_h_h14 .lowgo_menu, .witr_h_h17 .lowgo_menu, .witr_h_h18 .lowgo_menu, .witr_h_h19 .lowgo_menu, .witr_h_h20 .lowgo_menu, .witr_h_h21 .lowgo_menu {
+     display: -webkit-box;
+     display: -ms-flexbox;
+     display: flex;
+     -webkit-box-pack: end;
+     -ms-flex-pack: end;
+     justify-content: flex-end;
+     align-items: center;
+}
+ .tx_relative_m,.tx_top2_relative{
+     position:relative;
+}
+/* bar color title */
+ .witr_bar_main {
+     margin: 10px 0;
+}
+ .witr_bar_inner{
+     height: 3px;
+     width: 90px;
+     background: #821F05;
+     margin: 0px auto;
+     position: relative;
+     border-radius: 30px;
+}
+ .text-left .witr_bar_inner{
+     margin-left:0px;
+}
+ .text-right .witr_bar_inner{
+     margin-right:0px;
+}
+/* circale Bar css */
+ .witr_bar_innerc{
+     position:relative;
+}
+ .witr_bar_innerc::before{
+     content: '\f177';
+     position: absolute;
+     left: 0;
+     top: 50%;
+     transform:translateY(-50%);
+     border:5px solid #e0a067;
+     border-radius: 50%;
+     background: #1c1b1b;
+     -webkit-animation-duration: 3s;
+     animation-duration: 3s;
+     -webkit-animation-timing-function: linear;
+     animation-timing-function: linear;
+     -webkit-animation-iteration-count: infinite;
+     animation-iteration-count: infinite;
+     -webkit-animation-name: move_title_bg;
+     animation-name: move_title_bg1;
+}
+ .witr_bar_innerc::after{
+     content: '\f178';
+     position: absolute;
+     right: 0;
+     top: 50%;
+     transform:translateY(-50%);
+     border:5px solid #e0a067;
+     border-radius: 50%;
+     background: #1c1b1b;
+     -webkit-animation-duration: 3s;
+     animation-duration: 3s;
+     -webkit-animation-timing-function: linear;
+     animation-timing-function: linear;
+     -webkit-animation-iteration-count: infinite;
+     animation-iteration-count: infinite;
+     -webkit-animation-name: move_title_bg;
+     animation-name: move_title_bg2;
+}
+ @keyframes move_title_bg1 {
+     from {
+         left:0;
+    }
+     to {
+         left:100%;
+    }
+}
+ @keyframes move_title_bg2 {
+     from {
+         right:0;
+    }
+     to {
+         right:100%;
+    }
+}
